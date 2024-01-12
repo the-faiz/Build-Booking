@@ -1,0 +1,12 @@
+.summary{
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:2%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+}
+
+.overviewcards{
+    flex-wrap: wrap;
+}

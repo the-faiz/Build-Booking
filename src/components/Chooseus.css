@@ -1,0 +1,62 @@
+.choose{
+    border:1px solid black;
+    box-shadow: 2px 2px 2px 2px;
+    height:100vh;
+    border-radius: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('https://slidechef.net/wp-content/uploads/2021/06/Fre-Minimal-Background-Pitch-Deck-Google-Slides-6-2-1024x576.jpg') center/cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:3%;
+    margin-bottom:3%;
+    flex-direction: column;
+}
+
+.item-container{
+    width:100%;
+    height: 50%;
+}
+
+.item{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 20px;
+    margin:20px 20px;
+}
+
+.item img{
+    width:100%;
+    height:100%;
+
+}
+
+.item1{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('https://i.ytimg.com/vi/oIlA2x9dTkM/maxresdefault.jpg') center/cover;
+
+}
+.item2{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('https://thumbs.dreamstime.com/z/certificate-line-icon-verified-document-sign-vector-accepted-confirmed-symbol-gradient-button-design-colorful-geometric-shapes-132032200.jpg') center/cover;
+
+}
+.item3{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('https://cdn.dribbble.com/users/2421104/screenshots/5898792/____3.gif') center/cover;
+
+}
+
+.mybutton{
+    margin-top:50px;
+    font-size: 2rem;
+}
+
+@media (max-width:1000px){
+    .choose{
+        display: none;
+    }
+}

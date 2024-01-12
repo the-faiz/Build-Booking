@@ -1,0 +1,22 @@
+.smallcard{
+    margin: 20px 20px;
+}
+.smallcard {
+    border: 1px solid #ddd;
+    overflow: hidden; /* Hide overflow content */
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Show ellipsis for long titles */
+    white-space: nowrap; /* Prevent title from wrapping */
+}
+
+.card-text {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Show ellipsis for long descriptions */
+    white-space: nowrap; /* Prevent description from wrapping */
+  }

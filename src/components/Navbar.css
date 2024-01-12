@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&family=Roboto+Condensed&family=Young+Serif&display=swap');
+
+*{
+    margin:0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+
+/* Navigation Bar Css */
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #87cefa, #d3e4ff);
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    z-index: 100;
+
+}
+
+nav h3{
+    margin: 10px 20px;
+}
+
+nav div{
+    display: flex;
+    margin-left: 10px;
+}
+
+nav div li{
+    list-style: none;
+    margin-left: 10px;
+    padding:10px 10px;
+}
+
+#nav_buttons{
+   margin-left: auto;
+   padding:10px;
+}
+
+nav button{
+    border-radius: 10px;
+    margin-left:30px;
+    padding:10px 10px;
+    background-color: black;
+    color:white;
+    font-weight: bolder;
+}
+
+.menu{
+    display: none;
+    margin-left:10px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+@media (max-width:850px){
+    nav li{
+        display: none;
+    }
+    h3{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+
+    #nav_buttons button{
+        font-size: 0.7rem;
+        height:80%;
+    }
+}
+
+/* Navigation css ends  */

@@ -1,0 +1,21 @@
+.trending{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    width:100vw;
+    display:grid;
+    gap:var(--size-3);
+    grid-auto-flow:column;
+    overflow-x:auto;
+    overscroll-behavior-inline: contain;
+    grid-gap: 10px;
+}
+
+
+.card{
+    margin: 20px 20px;
+}

@@ -1,0 +1,60 @@
+.card3{
+    border:1px solid black;
+    width:20rem;
+    height:13rem;
+    border-radius: 10px;
+    ;
+    /* background-image: url(''); */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.card3:hover{
+    transform: scale(1.01);
+    box-shadow: 1px 1px 1px 1px;
+    justify-content: center;
+    .hovernotshow{
+        display: none;
+    }
+    .hovershow{
+        display: flex;
+    }
+}
+
+
+.card3 h3{
+    color:white;
+}
+
+.card3 .pnumber{
+    border: 1px solid white;
+    width:5rem;
+    height: 5rem;
+    border-radius: 100px;
+    background-color: black;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    display: none;
+
+}
+
+.card3 .pnumber h2{
+    color:white;
+}
+
+
+
+.card3 p{
+    color:white;
+}
+
+.hovershow{
+    display: none;
+}
+

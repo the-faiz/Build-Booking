@@ -1,0 +1,41 @@
+/* Carousel CSS */
+.car-pfeature{
+    width:100vw;
+    height:40rem;
+    margin-top:50px;
+}
+
+.car-pfeature>h1{
+    margin-left:30px;
+}
+
+.carousel-item-pfeature{
+    height:32rem;
+    background-color: #000;
+    color:white;
+    position: relative;
+    width:100vw;
+    background-position: center;
+    background-size: cover ;
+}
+.container-pfeature{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding-bottom:50px;
+}
+
+.overlay-image-pfeature{
+    position: absolute;
+    bottom:0;
+    top:0;
+    right:0;
+    left:0;
+    background-position: center;
+    background-size:cover;
+    opacity: 0.5;
+
+}
+
+/* Carousel css ends  */

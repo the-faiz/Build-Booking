@@ -1,0 +1,21 @@
+.box6{
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:2%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+}
+
+.qanda{
+    display: flex;
+    padding:2%;
+    flex-direction: column;
+}
+
+.heading{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+

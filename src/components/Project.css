@@ -1,0 +1,21 @@
+.box1{
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:5%;
+    /* border:2px solid black; */
+}
+
+/* .box1-1{
+    border:2px solid red;
+}
+.box1-2{
+    border:2px solid yellow;
+}
+
+.box1-3{
+    border: 2px soild green;
+} */
+
+.projectbtn{
+    font-size: 1.3rem;
+}

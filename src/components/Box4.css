@@ -1,0 +1,23 @@
+.box4{
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:1%;
+    display:flex;
+    background-color: aliceblue;
+    flex-direction: column;
+    border-radius:10px ;
+    /* border: 2px solid red; */
+}
+
+.floorplantypes button{
+    margin:1%;
+}
+.floorplanimages{
+    height:60vh;
+    width:60%;
+    align-self: center;
+}
+
+img{
+    border-radius: 10px;
+}
